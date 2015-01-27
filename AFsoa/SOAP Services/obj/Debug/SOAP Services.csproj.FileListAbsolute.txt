@@ -1,0 +1,14 @@
+c:\DSD\pcsihsai\SOAP Services\bin\SOAP Services.dll
+c:\DSD\pcsihsai\SOAP Services\bin\SOAP Services.pdb
+c:\DSD\pcsihsai\SOAP Services\obj\Debug\SOAP Services.dll
+c:\DSD\pcsihsai\SOAP Services\obj\Debug\SOAP Services.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SOAP Services\bin\SOAP Services.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SOAP Services\bin\SOAP Services.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SOAP Services\obj\Debug\SOAP Services.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SOAP Services\obj\Debug\SOAP Services.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SOAP Services\obj\Debug\SOAP Services.csprojResolveAssemblyReference.cache
+C:\DsdAF\AFsoa\SOAP Services\bin\SOAP Services.dll
+C:\DsdAF\AFsoa\SOAP Services\bin\SOAP Services.pdb
+C:\DsdAF\AFsoa\SOAP Services\obj\Debug\SOAP Services.csprojResolveAssemblyReference.cache
+C:\DsdAF\AFsoa\SOAP Services\obj\Debug\SOAP Services.dll
+C:\DsdAF\AFsoa\SOAP Services\obj\Debug\SOAP Services.pdb

@@ -1,0 +1,17 @@
+c:\DSD\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.dll.config
+c:\DSD\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.dll
+c:\DSD\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.pdb
+c:\DSD\pcsihsai\SoapServiceTest\obj\Debug\SoapServiceTest.dll
+c:\DSD\pcsihsai\SoapServiceTest\obj\Debug\SoapServiceTest.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.dll.config
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\bin\Debug\SoapServiceTest.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\obj\Debug\SoapServiceTest.csprojResolveAssemblyReference.cache
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\obj\Debug\SoapServiceTest.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest\obj\Debug\SoapServiceTest.pdb
+C:\DsdAF\AFsoa\SoapServiceTest\obj\Debug\SoapServiceTest.csprojResolveAssemblyReference.cache
+C:\DsdAF\AFsoa\SoapServiceTest\obj\Debug\SoapServiceTest.dll
+C:\DsdAF\AFsoa\SoapServiceTest\bin\Debug\SoapServiceTest.dll.config
+C:\DsdAF\AFsoa\SoapServiceTest\bin\Debug\SoapServiceTest.dll
+C:\DsdAF\AFsoa\SoapServiceTest\bin\Debug\SoapServiceTest.pdb
+C:\DsdAF\AFsoa\SoapServiceTest\obj\Debug\SoapServiceTest.pdb

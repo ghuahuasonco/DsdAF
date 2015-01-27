@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f3a641c8-ac4e-4ea7-81b9-026e7f7bd950" name="Alumnos@H45-38 2015-01-17 10:28:17" runUser="H45-38\Alumnos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="da177de0-b8a5-46c1-b4cf-2fd8dfbb5cad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alumnos_H45-38 2015-01-17 10_28_17" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-17T10:28:17.9911988-05:00" queuing="2015-01-17T10:28:18.0302011-05:00" start="2015-01-17T10:28:18.0332012-05:00" finish="2015-01-17T10:28:18.2932050-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="c:\dsd\pcsihsai\soapservicetest\bin\debug\soapservicetest.dll" id="dee255e4-6c2f-75e8-0b09-b1a369c36b63">
+      <Execution id="78ddb9fb-6a41-4708-ab3a-123bc522acd3" />
+      <TestMethod codeBase="c:/DSD/pcsihsai/SoapServiceTest/bin/Debug/SoapServiceTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SoapServiceTest.UnitTest1, SoapServiceTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dee255e4-6c2f-75e8-0b09-b1a369c36b63" executionId="78ddb9fb-6a41-4708-ab3a-123bc522acd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="78ddb9fb-6a41-4708-ab3a-123bc522acd3" testId="dee255e4-6c2f-75e8-0b09-b1a369c36b63" testName="TestMethod2" computerName="H45-38" duration="00:00:00.1415638" startTime="2015-01-17T10:28:18.0352014-05:00" endTime="2015-01-17T10:28:18.2932050-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78ddb9fb-6a41-4708-ab3a-123bc522acd3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

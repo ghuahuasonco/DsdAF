@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5929ab89-f8b2-4602-9672-50390f92c176" name="Alumnos@H45-38 2015-01-17 10:20:18" runUser="H45-38\Alumnos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="da177de0-b8a5-46c1-b4cf-2fd8dfbb5cad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alumnos_H45-38 2015-01-17 10_20_18" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-17T10:20:18.6511671-05:00" queuing="2015-01-17T10:20:18.6851674-05:00" start="2015-01-17T10:20:18.6851674-05:00" finish="2015-01-17T10:20:20.8701705-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="c:\dsd\pcsihsai\soapservicetest\bin\debug\soapservicetest.dll" id="dee255e4-6c2f-75e8-0b09-b1a369c36b63">
+      <Execution id="b96ee72e-ed47-404c-86b2-3bd540200a63" />
+      <TestMethod codeBase="c:/DSD/pcsihsai/SoapServiceTest/bin/Debug/SoapServiceTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SoapServiceTest.UnitTest1, SoapServiceTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dee255e4-6c2f-75e8-0b09-b1a369c36b63" executionId="b96ee72e-ed47-404c-86b2-3bd540200a63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b96ee72e-ed47-404c-86b2-3bd540200a63" testId="dee255e4-6c2f-75e8-0b09-b1a369c36b63" testName="TestMethod2" computerName="H45-38" duration="00:00:02.0584570" startTime="2015-01-17T10:20:18.6951674-05:00" endTime="2015-01-17T10:20:20.8701705-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b96ee72e-ed47-404c-86b2-3bd540200a63">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SoapServiceTest.UnitTest1.TestMethod2 threw exception: 
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://localhost:57375/Mensajes.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---&gt; System.Net.WebException: Unable to connect to the remote server ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:57375</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)
+ --- End of inner exception stack trace ---
+    at System.Net.HttpWebRequest.GetRequestStream(TransportContext&amp; context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at SoapServiceTest.MensajesWS.IMensajes.Despedir(String nombre, String curso)
+   at SoapServiceTest.MensajesWS.MensajesClient.Despedir(String nombre, String curso) in c:\DSD\pcsihsai\SoapServiceTest\Service References\MensajesWS\Reference.cs:line 57
+   at SoapServiceTest.UnitTest1.TestMethod2() in c:\DSD\pcsihsai\SoapServiceTest\UnitTest1.cs:line 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

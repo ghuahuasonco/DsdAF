@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{613B72BA-1E0C-4D81-B2C6-74F454BAF46B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		pcsihsai.vsmdi = pcsihsai.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP Services", "SOAP Services\SOAP Services.csproj", "{53C889C7-1C92-4776-8D0C-FE01A84F7B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapServiceTest", "SoapServiceTest\SoapServiceTest.csproj", "{749555B7-83E4-4919-815D-B2FA09BA8A70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56} = {53C889C7-1C92-4776-8D0C-FE01A84F7B56}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapServiceTest2", "SoapServiceTest2\SoapServiceTest2.csproj", "{67551463-441A-45CD-8456-8614D8708F51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56} = {53C889C7-1C92-4776-8D0C-FE01A84F7B56}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = pcsihsai.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C889C7-1C92-4776-8D0C-FE01A84F7B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749555B7-83E4-4919-815D-B2FA09BA8A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749555B7-83E4-4919-815D-B2FA09BA8A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749555B7-83E4-4919-815D-B2FA09BA8A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749555B7-83E4-4919-815D-B2FA09BA8A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67551463-441A-45CD-8456-8614D8708F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67551463-441A-45CD-8456-8614D8708F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67551463-441A-45CD-8456-8614D8708F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67551463-441A-45CD-8456-8614D8708F51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

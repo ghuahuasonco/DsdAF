@@ -1,0 +1,6 @@
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\bin\Debug\SoapServiceTest2.dll.config
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\bin\Debug\SoapServiceTest2.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\bin\Debug\SoapServiceTest2.pdb
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\obj\Debug\SoapServiceTest2.csprojResolveAssemblyReference.cache
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\obj\Debug\SoapServiceTest2.dll
+C:\Ghuahuasonco\wcfexample\pcsihsai\SoapServiceTest2\obj\Debug\SoapServiceTest2.pdb
