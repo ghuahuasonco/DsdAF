@@ -150,7 +150,7 @@ namespace SOAP_Services
                 cliente.Timeout = 10000;
                 cliente.DeliveryMethod = SmtpDeliveryMethod.Network;
                 cliente.UseDefaultCredentials = false;
-                cliente.Credentials = new NetworkCredential("ghuahuasonco@gmail.com", "Kross986280383Kross");
+                cliente.Credentials = new NetworkCredential("ghuahuasonco@gmail.com", "XXXXXXXXXXXXXX");
                 MailMessage msg = new MailMessage();
                 msg.To.Add(msgto);
                 msg.From = new MailAddress("ghuahuasonco@gmail.com");
